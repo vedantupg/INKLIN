@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<title>REPORT</title>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        display: grid;
+        grid-template-areas: "header header header" "nav article ads" "footer footer footer";
+        grid-template-rows: 60px 1fr 60px;
+        grid-template-columns: 20% 1fr 15%;
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    #pageHeader {
+        grid-area: header;
+        font-family: 'Playfair Display', serif;
+        color: white;
+        text-align: center;
+    }
+    
+    #pageFooter {
+        grid-area: footer;
+        font-family: 'Playfair Display', serif;
+        color: white;
+        text-align: center;
+    }
+    
+    #mainArticle {
+        grid-area: article;
+    }
+    
+    #mainNav {
+        grid-area: nav;
+    }
+    
+    #siteAds {
+        width: 50%;
+        grid-area: ads;
+    }
+    
+    .button {
+        background-color: #464159;
+        /* Green */
+        border: double;
+        color: white;
+        align-self: left;
+        align: left;
+        text-decoration-color: silver;
+        text-align: left;
+        text-decoration: none;
+        padding: 8px;
+        margin: -10px;
+        font-family: 'Playfair Display', serif;
+        color: white;
+        font-size: 16px;
+    }
+    
+    div {
+        padding: 20px;
+        background: #afeeee;
+    }
+    
+    nav {
+        padding: 20px;
+        background: #8bbabb;
+    }
+    
+    article {
+        padding: 20px;
+        background: white;
+    }
+    
+    footer {
+        padding: 20px;
+        background: #6c7b95;
+    }
+    
+    header {
+        padding: 20px;
+        background: #464159;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+        padding: 0;
+    }
+    
+    nav ul a {
+        color: #464159;
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+    }
+    
+    p {
+        color: #146ca4;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 6-px;
+        background-color: mediumspringgreen;
+        font-size: 40px;
+    }
+    
+    #pageHeader {
+        font-size: 20px;
+    }
+    
+    body {
+        background-color: #E6FFEE;
+    }
+</style>
+
+<body>
+    <header id="pageHeader"><b> INKLIN' </b></header>
+
+
+
+
+    <article id="mainArticle">
+
+        <p>
+
+            <h1 class="myheading"> STUDENT DEVELOPMENT </h1>
+            <p>Student Development Theory refers to the body of educational psychology that theorizes how students gain knowledge in post-secondary educational environments.</p>
+
+
+
+
+            <h1 class="myheading"> CONFIDENCE</h1>
+            <center> {% load static %}<img border="self" src="{% static " home/images/self-confidence.jpg " %} " alt="self confidence face" height="400" width="500">
+            </center>
+
+            <p>Confidence can be described as a belief in oneself and the ability to succeed. Being confident is to possess a realistic sense of one’s capacity and feel secure in that knowledge.<br>
+                <br> Striking a healthy balance between too much and too little confidence can be challenging. Too much confidence can come off as cocky and arrogant. Overestimating one’s abilities might also lead to pitfalls, such as failing to complete
+                projects on time.<br>
+                <br> But too little confidence can prevent people from taking risks and seizing opportunities—in school, at work, or in their social life.<br>
+                <br>
+                <!--<center><img   src="C:\Users\hp\Desktop\sdlprojectmain\REPORT\IMAGES\R.png" alt="self confidence face" height="400" width="500></center>
+</center>-->
+                {% load static %}<img border="self" src="{% static " home/images/R.png " %} " alt="self confidence face" height="400" width="500"><br>
+                <br> Projecting just enough confidence helps people gain credibility, make a strong first impression, deal with pressure, and tackle personal and professional challenges.
+                <BR>
+                <BR> The best way to ensure a balanced sense of confidence is to assess oneself realistically. Confidence that’s based firmly on what is known may not only be a better guide than exaggerated certainty; studies suggest it’s also more likely
+                to earn the faith of others.<br>
+                <p>
+
+
+                    <br>
+                </p>
+
+
+                <h1 class="myheading"> FITNESS</h1>
+                <p>
+                    Fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Physical fitness is generally achieved through proper nutrition, moderate-vigorous physical exercise, and sufficient
+                    rest.
+                    <br></p>
+
+
+
+                <center> {% load static %}<img border="self" src="{% static " home/images/ff.jpg " %} " alt="self confidence face" height="400" width="500">
+                </center>
+
+                <p>Regular exercise and physical activity increase muscle strength, bone density, flexibility, and stability. Physical fitness can reduce your risk for and resilience to accidental injuries, especially as you get older. </p>
+
+                <center> {% load static %}<img border="self" src="{% static " home/images/f.jpg " %} " alt="self confidence face" height="400" width="500">
+                </center>
+
+
+
+
+                <p>Making healthy choices, such as engaging in regular physical activity, can reduce your risk for many health issues and complications that can result in expensive medical care.</p>
+
+
+                <h1 class="myheading"> ACADEMICS</h1>
+                <p>
+                    Academics is the quality of your approach for learning throughout your life and inculcating good teachings actually can be stated as qualities academically sound person.</p>
+
+
+
+                <p>one of the important faces of academics is discipline which has many virtues like being focused, staying healthy and also avoiding problems.</p>
+
+                <center> {% load static %}<img border="self" src="{% static " home/images/c.jpg " %} " alt="self confidence face" height="400" width="500">
+                </center>
+
+                <p>Learning process about any domain should come from within and only then it has some productive outputs. In short, learning must be a self driven process. However tough the process gets going,you should stick your goals as perseverance
+                    is major key to success.</p>
+
+
+            </p>
+
+
+
+            <h1 class="myheading">PERSONALITY DEVELOPMENT </h1>
+            <p>
+
+                Personality development helps you develop an impressive personality and makes you stand apart from the rest.</p>
+
+            <p>Personality development also plays an essential role in improving one's communication skills.</p>
+            <br>
+            <center> {% load static %}<img border="self" src="{% static " home/images/personalityDevelopment.jpg " %}" alt="self confidence face" height="400" width="500">
+            </center>
+
+
+            <p>
+                Individuals ought to master the art of expressing their thoughts and feelings in the most desired way.</p>
+
+            <p> Personality represents the people how you are. It is not just looks that are important and that define who you are. </p>
+            <center> {% load static %}<img border="self" src="{% static " home/images/personality2.jpg " %}" alt="self confidence face" height="400" width="500">
+            </center>
+
+
+            <p>The personality of an individual is determined by his/her appearance, behavior, attitude, education, values and some more varying characteristics.</p>
+
+            <p>Personality defines who you are and how you respond to various situations. It is essential to focus on the personality, which matters the most.</p>
+
+
+        </p>
+
+
+
+        <h1 class="myheading"> ADD-ON </h1>
+        <p>
+            When it comes to improving your mental health, there are few better remedies than picking up a healthy hobby. Hobbies can get your mind active, and get you social—but the real benefit to most people is the boost to overall mental wellness.</p>
+
+
+        <p>For professional as well as individual growth, people today have resorted to gaining deeper knowledge in their respective fields. Similar is the case with the IT industry. Furthermore, IT certifications help in keeping up with the rapidly evolving
+            industry. </p>
+        <p>An organization that has skilled and certified human resources not only does better at providing quality deliverables, but also bolsters the company’s reputation in attracting and building new business.</p>
+        <center> {% load static %}<img border="self" src="{% static " home/images/addOn.jpeg " %}" alt="self confidence face" height="400" width="500">
+        </center>
+
+        <p>IT professionals through additional certifications, can leverage upon their skills in terms of interesting project opportunities and client acceptance.An organization with certified personnel reassures them of their project being in competent
+            hands.An internship enables you to gain first-hand exposure of working in the real world.</p>
+
+        <p>It also allows students to harness the skill, knowledge, and theoretical practice they learnt in university.</p>
+
+        <p>You can acquire endless amounts of education in your life, however, that knowledge doesn't always translate to the working life. Doing an internship exposes you to new people in a more controlled and stable environment.
+        </p>
+
+
+
+
+
+
+
+    </article>
+    <nav id="mainNav">
+        <ul>
+            <br>
+            <b>
+        <li><a  href="#">CONFIDENCE</a></li><br>
+
+        <li><a href="#">FITNESS</a></li><br>
+        <li><a href="#">ACADEMICS</a></li><br>
+        <li><a href="#">PERSONALITY DEVELOPMENT</a></li><br>
+        <li><a href="#">ADD ON</a></li>
+        <br>
+        <br>
+<button type='submit'><a href={% url 'home:certificate' %}>GENERATE CERTIFICATE</a></button>
+<button type='submit'><a href={% url 'home:barg' %}>GENERATE BARGRAPH</a></button>
+<button type='submit'><a href={% url 'home:piec' %}>GENERATE PIECHART</a></button>
+
+
+        <br>
+        <br>
+       <li>
+                       
+      </b>
+        </ul>
+    </nav>
+    <!--<div id="siteAds">Ads</div>-->
+    <footer id="pageFooter">HELPING.YOU.NUTURE</footer>
+</body>

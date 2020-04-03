@@ -1,0 +1,79 @@
+ {% extends 'home/base.html' %} {% block title %} CONFIDENCE {% endblock %} {% block content %}
+<form method="POST" action="/home/feedback/">
+    {% csrf_token %}
+  <div class="container feed">
+<h1><center>YOUR SAY ON INKLIN' !</center></h1>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Enter Your Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Your Suggestions for us..</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" ">
+      </div>
+    </form>
+     <h1>__________________________________________</h1>
+        <form>
+    <div class="row">
+      <div class="col-md-12" >
+        <h2>Rate your Experience</h2>
+     <h1>__________________________________________</h1>
+        <h4>Hi User,</h4>
+        <h5>Thanks for using INKLIN'.It was a great experience with you from our side and we want you to share yours with us!Your continued patronage and suggestions are a vital part of our growth. And for that, we are most grateful.</h5>
+
+
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><h4>Did we meet your expectations?</h4></label>
+          </div>
+
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><h4>Were you served promptly?</h4></label>
+          </div>
+
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><h4>was INKLIN' able to reach out to your problems?</h4></label>
+          </div>
+
+
+         
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"><h4>Would you recommend INKILN' to a friend or family member?</h4></label>
+          </div>
+     <h1>__________________________________________</h1>
+          <h2>Share your Opinion</h2>
+     <h1>__________________________________________</h1>
+        <div class="form-group">
+        <label for="exampleInputEmail1"><h4>How can we make your experience even better?</h4></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="mention expected improvements">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1"><h4>New Aspects you want us to add for your Development?</h4></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="optional ">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1"><h4>Did any part INKLIN' fall short of your Expectations?</h4></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="optional ">
+        <small id="emailHelp" class="form-text text-muted"></small>
+      </div>          
+     <h1>__________________________________________</h1>
+
+    <h5>
+      Thank You
+     Best regards,
+        <br></h5>
+       <h3> INKLIN'</h3>
+
+      </form>
+    </div>
+{% endblock %}

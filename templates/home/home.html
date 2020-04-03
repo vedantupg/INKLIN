@@ -1,0 +1,15 @@
+{% extends 'home/base.html' %} {% block title %} HOME {% endblock %} {% block content %}
+<form method="POST" action="">
+    {% csrf_token %}
+    <ul style="list-style: none; " >
+        <li> {% load static %} <img src="{% static "home/images/welcome1.PNG" %} " alt="welcome " height="750 " width="1380 " href="#home "></li>
+        <li> {% load static %} <img src="{% static "home/images/confidence1.PNG" %} " alt="confidence " height="750 " width="1380 " href="#home "></li>
+        <li> {% load static %} <img src="{% static "home/images/fitness1.PNG" %} " alt=" fitness " height="750 " width="1380 " /></li>
+        <li> {% load static %} <img src="{% static "home/images/academics1.PNG" %} " alt="academics " height="750 " width="1380 " href="#home "></li>
+        <li> {% load static %} <img src="{% static "home/images/personality1.PNG" %} " alt="personality " height="750 " width="1380 " href="#home "></li>
+        <li> {% load static %} <img src="{% static "home/images/addon1.PNG" %} " alt="addon " height="750 " width="1380 " href="#home "></li>
+
+    </ul>
+</form>
+
+{% endblock %}
